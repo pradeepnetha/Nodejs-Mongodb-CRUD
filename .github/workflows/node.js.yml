@@ -40,6 +40,4 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-    steps:
-  	- name: runtest cases
-      run: echo "test case'
+   
