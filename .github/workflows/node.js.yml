@@ -5,8 +5,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "actions" ]
-  
+    branches: [ "main" ]
+  pull_request:
+    branches: 
+          main
   workflow_dispatch:
   
 
