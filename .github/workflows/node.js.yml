@@ -4,13 +4,13 @@
 name: Node.js CI
 on:
   push:
-    branches: actions
+    branches: ${{ vars.a }}
   
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    environment: dev
+    
 
     strategy:
       matrix:
