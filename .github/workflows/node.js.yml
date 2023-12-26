@@ -33,3 +33,6 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    steps:
+  	- name: running test cases
+  	  run: echo "testcase is executed"
