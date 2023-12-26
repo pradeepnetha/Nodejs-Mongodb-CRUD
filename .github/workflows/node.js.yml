@@ -8,7 +8,7 @@ env:
 
 on:
   push:
-    branches: actions 
+    branches: ${{ env.BRANCH }} 
   
 jobs:
   build:
