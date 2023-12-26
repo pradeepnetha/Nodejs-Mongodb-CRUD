@@ -1,5 +1,5 @@
 # Nodejs-Mongodb-CRUD
--In this repository, I have created CRUD operation sites using Nodejs as backend with Nosql database.
+-In this repository, I have created CRUD operation sites using Nodejs as backend with Nosql database..
 
 # what you need to use
 -You have to use nodejs, expressjs, mongodb, mongoose, ejs, css etc.
