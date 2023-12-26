@@ -4,9 +4,9 @@
 name: Node.js CI
 on:
   push:
-    branches: actions
+    branches: 
   pull_request:
-    branches: actions
+    branches: 
   workflow_dispatch:
   
   
