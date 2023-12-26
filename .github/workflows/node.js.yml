@@ -5,7 +5,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "actions" ]
+    branches: [ "$GITHUB_REF_NAME" ]
+  pull_request:
+    branches: 
+          $GITHUB_REF_NAME
   workflow_dispatch:
   
 
