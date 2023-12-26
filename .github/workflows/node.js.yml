@@ -10,6 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    environment: dev
 
     strategy:
       matrix:
@@ -18,7 +19,7 @@ jobs:
 
     steps:
     - name: print variable
-      run: echo $env.dev.REPO
+      run: echo $env.REPO
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
